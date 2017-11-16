@@ -92,7 +92,13 @@ float: Right;
 
 }
 .logo img{width:119px }
+
+
+/*------------masterPage input--------------------------*/
+
 .masterPage {
+    position: relative;
+    top:4px;
     width: 130px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -112,6 +118,8 @@ float: Right;
     width: 100%;
 }
 
+/*------------masterPage input--------------------------*/
+
 nav ul{display:flex;
 justify-content: space-between}
 
@@ -122,7 +130,11 @@ nav ul a{display:block;
     color: #999;
 }
 
-nav ul a:hover{color: #006341; }
+nav ul a:hover{
+    color:white;
+    background-color: #006341;
+
+}
 
 /*---------------------------------------
                         Main SECTION
@@ -209,7 +221,7 @@ select{
 
 #InnerSecondBorder{
     box-sizing: content-box;
-    border-radius: 25px;
+
     margin-top: 10px;
     margin-left:auto;
     margin-right:auto;
@@ -223,10 +235,10 @@ select{
 
 #InnerFirstBorder{
     box-sizing: content-box;
-    border-radius: 25px;
+
     margin-right:auto ;
     margin-left: auto;
-    box-shadow: 0px 0px 58px 15px ;
+
     border:black solid 1px;
     height:100%;
     width:80%;
@@ -278,7 +290,7 @@ select{
 .article img {
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 8px;
+
     border:rgba(255,250,250,0) solid 0.25em;
     width:33%;
 	height:350px;
@@ -434,8 +446,8 @@ justify-content: center;
 
 #video{
     margin-bottom: 10px ;
-    box-shadow: 0px 0px 7px 7px ;
-    border-radius: 2px;
+
+
     border: solid black 1px
 }
 
@@ -461,7 +473,7 @@ justify-content: center;
     text-decoration: none;
     font-size: 16px;
     padding:20px;
-    color: #999;
+    color:white;
 }
 
 .usefullLinks ul a:hover{color: #006341; }
@@ -469,7 +481,7 @@ justify-content: center;
 #extrainfo p{
     font-size: 24px;
     padding-top:20px;
-    color: #999;
+    color: white;
 }
 
 .trialBottom{
@@ -620,14 +632,14 @@ width:50%;
     height: 2.7em;
     padding: 0.625em;
     cursor: pointer;
-    border-radius: 2px;
-    color:#444;
+
+    color:white;
     font-size:0.80em;
 }
 
 #formbutton:hover{
-    background:#374535;
-    color:#cdcdcd;
+    background:#006341;
+    color:white;
 }
 
 #contactForm{
@@ -726,22 +738,19 @@ width:50%;
     margin-top:20px;
     border: 0 none;
     background:#001e22;
-    background: -webkit-linear-gradient(left, #cdcdcd , #001e22); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #cdcdcd, #001e22); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #cdcdcd, #001e22); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #cdcdcd , #001e22); /* Standard syntax */
+
     height: 2.7em;
     padding: 0.625em;
     cursor: pointer;
-    border-radius: 2px;
-    color:#444;
+
+    color:white;
     font-size:0.80em;
     margin-left: 80%;
 }
 
 #formButtonSign:hover{
-    background:#374535;
-    color:#cdcdcd;
+    background:#006341;
+    color:white;
 }
 
 .newUser{
