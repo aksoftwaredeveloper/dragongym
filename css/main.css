@@ -1,0 +1,802 @@
+/*---------------------------------------
+                  CSS RESET SECTION
+-----------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+html, body{  width: 100%;  height: 100%;  }
+
+
+/*---------------------------------------
+                        GENERAL SECTION
+-----------------------------------------*/
+body {
+max-width: 960px;
+
+}
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    /*background-color: #F2F2F2;*/
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    z-index: 40;
+}
+
+
+/*---------------------------------------
+                        HEADER SECTION
+-----------------------------------------*/
+header {background: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/kickboxer-girl-kickboxing-athletic-girl-160920.png");}
+
+.inner{
+    position: relative;
+
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,0.60);
+
+}
+.inner h1{
+    font-size: 35px;
+    font-weight: bold;
+    color:#999;
+}
+
+.banner{
+background-image: url("../imgs/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.upperHeader{
+    background-color: rgba(240,240,240,0.75);
+    position: relative;
+  height: 40px;
+    padding: 20px;
+
+}
+nav{
+float: Right;
+
+}
+.logo{
+   position: absolute;
+    top:-6px;
+    left:-6px;
+
+
+}
+.logo img{width:119px }
+.masterPage {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../imgs/searchicon.png');
+    background-position: Left;
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.masterPage:focus {
+    width: 100%;
+}
+
+nav ul{display:flex;
+justify-content: space-between}
+
+nav ul a{display:block;
+    text-decoration: none;
+    font-size: 16px;
+    padding:20px;
+    color: #999;
+}
+
+nav ul a:hover{color: #006341; }
+
+/*---------------------------------------
+                        Main SECTION
+-----------------------------------------*/
+main{}
+
+
+.MainRow1{
+    position: relative;
+    background-color: rgba(37,86,74,0.75);
+height: 80px;
+border-bottom: 1px solid #999;
+}
+
+.innerLeft{
+    position: absolute;
+    top: 20px;
+    Left: 5px;
+
+}
+.MainRow1 .inner{
+    width:80%;
+}
+
+.innerRight{
+    position: absolute;
+    top: 20px;
+    Right: 5px;
+
+}
+select{
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../imgs/searchicon.png');
+    background-position: Left;
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.MainRow2 .inner{
+
+    display: flex;
+    justify-content: center;
+
+}
+.MainRow2 .inner p{
+   display: block;
+
+    width:25%;
+    height:11.16%;
+    border-bottom: rgba(255,250,250,0) solid 1em;
+    border-top:rgba(255,250,250,0) solid 0.25em;
+    border-right:rgba(255,250,250,0) solid 0.25em;
+    border-left:rgba(255,250,250,0) solid 0.25em;
+}
+
+.MainRow2 .inner p:hover{
+    border-bottom:#006341 solid 1em;
+    border-top:#006341 solid 0.25em;
+    border-right:#006341 solid 0.25em;
+    border-left:#006341 solid 0.25em;
+    cursor: pointer;
+}
+
+.mainrow3{
+
+
+}
+
+.mainrow3 .inner{
+
+
+
+}
+#InnerAnimationContainer{
+    height: 600px;
+    padding-top:20px;
+}
+
+#InnerSecondBorder{
+    box-sizing: content-box;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+
+    width: 98.5%;
+    height: 95%;
+    border:green solid 0.25em;
+
+ 
+}
+
+#InnerFirstBorder{
+    box-sizing: content-box;
+    border-radius: 25px;
+    margin-right:auto ;
+    margin-left: auto;
+    box-shadow: 0px 0px 58px 15px ;
+    border:black solid 1px;
+    height:100%;
+    width:80%;
+
+
+}
+#mainRow3backimg {
+    background: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/pexels-photo-414029.png");
+
+}
+.article{
+	display: none;
+    position:absolute;
+    width:65%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10px;
+
+}
+
+.article h2{
+    margin:10px;
+    font-size: 4em;
+    color: green;
+}
+
+.articleH3{
+    margin:10px;
+    font-size: 2em;
+    color: green;
+}
+
+.articleH4{
+    margin:10px;
+    font-size: 1.25em;
+    color: green;
+}
+
+.article p{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    color:#333333;
+    margin:10px;
+}
+.article img {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border:rgba(255,250,250,0) solid 0.25em;
+    width:33%;
+	height:350px;
+
+}
+.article img:hover {
+    border:green solid 0.25em;
+    cursor: pointer;
+
+}
+
+#ImgOpen{
+    position:fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width:70vw;
+    height:70vw;
+    top:0%;
+    left: 15%;
+    background-color: rgba(37,86,74,0.95);
+   display: none;
+  text-align: center;
+    z-index: 70;
+    padding-bottom: 10%;
+}
+.bigPics{
+
+    max-width: 50vw;
+    max-height: 40vw;
+
+}
+
+.CloseButton{
+    margin-left : 60vw;
+}
+
+
+
+
+.mainrow4 .inner{
+
+    display: flex;
+justify-content: center;
+}
+.Whiteback{
+
+    background-color: rgba(255,255,255,1);
+    border-bottom: #cccccc solid 2px;
+    border-top: #000000 solid 3px;
+}
+.trialTop{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px ;
+    padding-bottom: 50px;
+}
+.trialTop p{
+    padding:0 20px;
+}
+.trialTop img{
+    margin-bottom: 15px;
+}
+.trialTop p span{
+    color: #808080;
+
+}
+
+
+
+.awdimages{
+
+    display: flex;
+    justify-content: center;
+ padding-bottom: 50px;
+
+}
+
+.awdimages p{
+    padding: 0 10px ;
+
+}
+
+.sectionHeadding{
+    text-align: center;
+    color: Green;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 3em;
+}
+.awards{
+
+    background: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/bodybuilder-weight-training-stress-38630.png");
+}
+.insideawrdBack{
+    background-color: rgba(255,255,255,0.80);
+}
+
+.insideawrdBack2{
+    background-color: #374535;
+ padding-top: 20px;
+}
+.footerImgs img{
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    width: 120px;
+    height: 120px;
+}
+.lastFooterBackCover{
+    width: 100%;
+    background-color: white;
+}
+.lastFooter{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.lastFooter ul{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.lastFooter ul a{display:block;
+    text-decoration: none;
+    font-size: 16px;
+    padding:20px;
+    color: #999;
+}
+
+.lastFooter ul a:hover{color: #006341; }
+.disclaimer{
+    
+    margin-left: auto;
+    margin-right: auto;
+    color: #999;
+    font-size: small;
+}
+
+
+#video{
+    margin-bottom: 10px ;
+    box-shadow: 0px 0px 7px 7px ;
+    border-radius: 2px;
+    border: solid black 1px
+}
+
+/*---------------------------------------
+                       Footer SECTION
+-----------------------------------------*/
+
+.footerBottom .inner {
+    background-color: rgba(55, 69, 53,1);
+}
+.usefullLinks{
+
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.usefullLinks ul a{display:block;
+    text-decoration: none;
+    font-size: 16px;
+    padding:20px;
+    color: #999;
+}
+
+.usefullLinks ul a:hover{color: #006341; }
+
+#extrainfo p{
+    font-size: 24px;
+    padding-top:20px;
+    color: #999;
+}
+
+.trialBottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tbc1{
+    /*width:50%;*/
+}
+.tbc2 {
+    /*width:50%;*/
+
+
+}
+
+/* -------------------Reviews Section -----------------------------*/
+.profileImg img{
+    position:relative;
+    top:-45px;
+    left:-25px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    border: 1px solid #eee;
+}
+
+.reviews{
+    position:relative;
+    box-sizing: border-box;
+    width:612px;
+    display:flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top:30px;
+    padding-bottom: 5px;
+
+}
+.reviews span{
+    display:block;
+    margin:20px;
+}
+
+.whiteInside {
+    background-color: white;
+
+}
+
+.reviewTime{
+    padding-top: 23px;
+    color:#9d9791;
+    font-size: 15px;
+    width: 155px;
+}
+.profile{
+    width: 155px;
+}
+
+.ratingSection{
+    width: 293px;
+}
+
+.reviewerName{
+    font-weight: bold;
+    font-size: 15px;
+    position:absolute;
+    top:106px;
+    left:0px;
+}
+
+.rCommentTitle{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.rComment{
+    font-size: 15px;
+}
+
+/* -------------------Contact Form Section -----------------------------*/
+
+.contactForm{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+
+
+}
+
+
+
+.formCol{
+width:50%;
+    margin:25px;
+}
+
+.fColL span{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.fColL img{
+    position:relative;
+    top:-10px;
+
+}
+.fColR span{
+    display: block;
+}
+
+
+
+.formInput {
+
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+
+    background-position: Left;
+    background-size:30px 30px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+
+    margin-top:20px;
+
+
+}
+
+#formbutton{
+    width: 40%;
+    margin-top:20px;
+    border: 0 none;
+    background-color: #001e22;
+    height: 2.7em;
+    padding: 0.625em;
+    cursor: pointer;
+    border-radius: 2px;
+    color:#444;
+    font-size:0.80em;
+}
+
+#formbutton:hover{
+    background:#374535;
+    color:#cdcdcd;
+}
+
+#contactForm{
+    margin-top: 20px;
+}
+
+.formInput:focus {
+    width: 100%;
+}
+
+.pinner{
+    max-width:1213px;
+	width:80%;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: rgba(255,255,255,1);
+}
+
+.formHeading{
+    color:#444444;
+    font-size: 2em;
+
+
+}
+
+.tagFonts{
+    color:#444444;
+    font-size: 1em;
+
+}
+
+.tagFonts a{
+    text-decoration: none;
+    color:#444444;
+    font-size: 1em;
+}
+
+.map iframe{
+    display: block;
+    width:100%;
+}
+
+/* -------------------page Title Section -----------------------------*/
+.pageTitleSec {
+    display: block;
+    width: 100%;
+    background-color: #b8c5c4;
+    height: 4em;
+    text-align:center;
+    padding-top:10px;
+}
+.pageTitle{
+    color:#008040;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: Stencil;
+
+}
+
+
+/* -------------------login Section -----------------------------*/
+.contentWrapper{
+    max-width: 1213px;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+.mainHeading{
+    width:70%;
+    min-width: 400px;
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color : #4d4d4d;
+    font-size: 2.5em;
+}
+
+.contentWrapper form{
+    width:50%;
+   min-width: 400px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid #9a9a9a;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:30px;
+}
+
+
+
+#formButtonSign{
+    width: 20%;
+    margin-top:20px;
+    border: 0 none;
+    background:#001e22;
+    background: -webkit-linear-gradient(left, #cdcdcd , #001e22); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #cdcdcd, #001e22); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #cdcdcd, #001e22); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #cdcdcd , #001e22); /* Standard syntax */
+    height: 2.7em;
+    padding: 0.625em;
+    cursor: pointer;
+    border-radius: 2px;
+    color:#444;
+    font-size:0.80em;
+    margin-left: 80%;
+}
+
+#formButtonSign:hover{
+    background:#374535;
+    color:#cdcdcd;
+}
+
+.newUser{
+    text-decoration:none;
+    margin-left: 80%;
+    color : #4d4d4d;
+    font-size: 1.25em;
+}
+
+
+/* -------------------join Section -----------------------------*/
+.contentP a{
+    text-decoration: none;
+  color: #008040;
+}
+
+.joinPage p{
+    display: block;
+
+
+    background-color: #e2e2e2;
+    border-bottom: 2px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em;
+
+}
+
+
+
+.joinPage{
+    display:block;
+    margin-bottom: 20px;
+}
+
+.stepCurrnet span{
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+
+.location{
+    color:#c8102e;
+}
+
+.choose{
+    color:#959595;
+}
+
+
+
